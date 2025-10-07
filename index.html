@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>API Interaction Project</title>
 
 </head>
+
 <body>
     <h1>JSON API Explorer</h1>
-    
+
     <section>
         <h2>Create New Post</h2>
         <form id="postForm">
@@ -20,7 +22,7 @@
                 <label for="bodyInput">Body:</label>
                 <textarea id="bodyInput" name="body" rows="4" required></textarea>
             </div>
-            <button type="submit">Submit Post</button>
+            <button id="submit" type="button">Submit Post</button>
         </form>
         <div id="formError"></div>
         <div id="formSuccess"></div>
@@ -35,4 +37,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
